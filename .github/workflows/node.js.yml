@@ -86,7 +86,7 @@ jobs:
       contents: read
       id-token: write
     environment:
-      name: staging2
+      name: staging
       url: "https://${{ steps.deploy.outputs.fqdn }}"
 
     steps:
